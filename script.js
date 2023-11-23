@@ -119,7 +119,7 @@ function checkGuess() {
             resultElement.innerText = "Congratulations! Your guess is correct!";
             streak++;
         } else {
-            resultElement.innerText = "Oops! Try again.";
+            resultElement.innerText = "Incorrect, the answer was "+targetNumber;
             streak = 0;
         }
         
