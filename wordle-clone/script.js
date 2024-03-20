@@ -6,11 +6,11 @@ let guessesRemaining = NUMBER_OF_GUESSES;
 let currentGuess = [];
 let nextLetter = 0;
 let rightGuessString = ANSWORDS[Math.floor((new Date().getTime()/1000 - 1710820800)/ 86400)];
-console.log(Math.floor((new Date().getTime()/1000 - 1710820800)/ 86400) );
+//console.log(Math.floor((new Date().getTime()/1000 - 1710820800)/ 86400) );
 //let rightGuessString = ANSWORDS[Math.floor(Math.random() * ANSWORDS.length)];
 //console.log(new Date().getTime()/1000);
 //math.floor((currenttime - day0)/86400) 
-console.log(rightGuessString);
+console.log("No cheating please :)");
 
 function initBoard() {
   let board = document.getElementById("game-board");
